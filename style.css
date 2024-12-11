@@ -1,0 +1,92 @@
+/* Establece el fondo de la página y la tipografía */
+body {
+    background-color: #cfcfcf; /* Fondo color gris claro */
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Para asegurar que la altura ocupe toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea todo en la parte superior */
+    text-align: center;
+    align-items: center; /* Alinea horizontalmente */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    background-color: white; /* Fondo blanco para el contenedor */
+    padding: 30px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 600px; /* Limita el ancho */
+    width: 100%;
+    margin-top: 50px; /* Espacio entre el margen superior y el contenedor */
+    text-align: center; /* Alinea el texto dentro del contenedor */
+}
+
+/* Estilo para los títulos */
+h1 {
+    color: #e67815; /* Naranja */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los párrafos */
+p {
+    color: #e67815; /* Naranja */
+    font-size: 18px;
+}
+
+/* Estilo para el contenedor de imágenes */
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye los rectángulos en todo el ancho */
+    width: 100%; /* Hace que el contenedor ocupe todo el ancho disponible */
+    margin-top: 30px; /* Espacio entre el texto y las imágenes */
+}
+
+/* Estilo para los rectángulos de imagen */
+.image-box {
+    background-color: #fff; /* Fondo blanco */
+    border: 2px solid #e67815; /* Borde de color naranja */
+    width: 22%; /* Ajusta el tamaño de los rectángulos */
+    height: 150px; /* Altura fija */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para las imágenes dentro de los rectángulos */
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px; /* Bordes redondeados de las imágenes */
+}
+
+.footer {
+    text-align: center;
+    margin-top: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #4CAF50; /* Color del enlace (puedes cambiarlo) */
+    text-decoration: none;
+    font-weight: bold;
+}
+.instagram-link {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.instagram-link a {
+    color: #E1306C; /* Color característico de Instagram */
+    text-decoration: none;
+    font-weight: bold;
+}
